@@ -52,7 +52,7 @@ public class ProductRepository : IProductRepository
     {
         using IDbConnection connection = new SQLiteConnection(_connectionString);
         string sql = @"update Product set Name=@Name,Price=@Price,Quantity=@Quantity where Id=@Id";
-        await connection.ExecuteAsync(sql, new { product });
+        await connection.ExecuteAsync(sql, new { Name = product.Name, Price = product.Price, Quantity = product.Quantity, Id = product.Id });
     }
 
     public async Task DeleteProductAsync(int id)
