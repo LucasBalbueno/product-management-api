@@ -35,11 +35,11 @@ A `ProductManagementApi` é uma API RESTful para gerenciar produtos. Ela permite
 
 1. Clone o repositório no seu terminal;
    ```bash
-   git clone https://github.com/LucasBalbueno/product-management-api
-   cd ProductManagementApi
+    git clone https://github.com/LucasBalbueno/product-management-api
    ```
 2. Digite no terminal/console dentro da pasta `ProductManagementApi`:
    ```bash
+    cd ProductManagementApi
     dotnet run
    ```
 3. Irá abrir a documentação do Swagger no seu navegador;
@@ -47,7 +47,7 @@ A `ProductManagementApi` é uma API RESTful para gerenciar produtos. Ela permite
 ### Instruções do Postman:
 Para testar a API no Postman, você pode importar a coleção.
 
-1. Copie o script da coleção condfigurado:
+1. Copie o script da coleção configurada abaixo:
 ```bash
 {
 	"info": {
@@ -206,4 +206,4 @@ Para testar a API no Postman, você pode importar a coleção.
 4. Cole o JSON acima.
 5. A coleção será configurada e agora você pode fazer os testes. 
 
-**OBS**: Lembre-se de alterar os parâmetros da URL e do body request para executar as funcionalidades corretamente;
+**OBS**: Lembre-se de alterar os parâmetros da URL e do body request para executar as funcionalidades corretamente.
